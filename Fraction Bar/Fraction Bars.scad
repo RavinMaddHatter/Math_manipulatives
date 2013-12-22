@@ -29,68 +29,68 @@ module base(){
 module whole(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length,piece_thicness]);
-		translate([0,bar_length/2,piect_thickness])rotate([0,0,90])write("1/1",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/2,piece_thickness])rotate([0,0,90])write("1/1",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 module half(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/2,piece_thicness]);
-		translate([0,bar_length/4,piect_thickness])rotate([0,0,90])write("1/2",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/4,piece_thickness])rotate([0,0,90])write("1/2",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 
 module third(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/3,piece_thicness]);
-		translate([0,bar_length/6,piect_thickness])rotate([0,0,90])write("1/3",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/6,piece_thickness])rotate([0,0,90])write("1/3",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 
 module quarter(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/4,piece_thicness]);
-		translate([0,bar_length/8,piect_thickness])rotate([0,0,90])write("1/4",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/8,piece_thickness])rotate([0,0,90])write("1/4",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 
 module fifth(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/5,piece_thicness]);
-		translate([0,bar_length/10,piect_thickness])rotate([0,0,90])write("1/5",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/10,piece_thickness])rotate([0,0,90])write("1/5",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 
 module sixth(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/6,piece_thicness]);
-		translate([0,bar_length/12,piect_thickness])rotate([0,0,90])write("1/6",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/12,piece_thickness])rotate([0,0,90])write("1/6",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 
 module seventh(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/7,piece_thicness]);
-		translate([0,bar_length/14,piect_thickness])rotate([0,0,90])write("1/7",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/14,piece_thickness])rotate([0,0,90])write("1/7",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 
 module eighth(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/8,piece_thicness]);
-		translate([0,bar_length/16,piect_thickness])rotate([0,0,90])write("1/8",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/16,piece_thickness])rotate([0,0,90])write("1/8",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 
 module ninth(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/9,piece_thicness]);
-		translate([0,bar_length/18,piect_thickness])rotate([0,0,90])write("1/9",h=text_h,t=piece_thicness*5,center=true);
+		translate([0,bar_length/18,piece_thickness])rotate([0,0,90])write("1/9",h=text_h,t=piece_thicness*5,center=true);
 	}
 }
 
 module tenth(){
 	difference(){
 		translate([-bar_width/2,0,0])cube([bar_width,bar_length/10,piece_thicness]);
-		translate([0,bar_length/20,piect_thickness])rotate([0,0,90])write("1/10",h=text_h*.9,t=piece_thicness*5,center=true);
+		translate([0,bar_length/20,piece_thickness])rotate([0,0,90])write("1/10",h=text_h*.9,t=piece_thicness*5,center=true);
 	}
 }
